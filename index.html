@@ -3,12 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Minha Loja de Dropshipping</title>
-    <link rel="stylesheet" href="style.css">
+    <title>TechDrop Express</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <header>
-        <h1>Minha Loja de Dropshipping</h1>
+        <h1>TechDrop Express</h1>
+        <p class="subtitle">Seu Hub de Eletrônicos e Gadgets Inovadores!</p>
         <nav>
             <ul>
                 <li><a href="index.html">Início</a></li>
@@ -19,15 +20,30 @@
         </nav>
     </header>
 
-    <main>
-        <p>Bem-vindo à nossa loja! Encontre os melhores produtos com preços incríveis.</p>
-        <!-- Conteúdo específico da página será inserido aqui -->
-    </main>
+    <div class="container">
+        <main>
+            <section class="hero">
+                <div class="hero-image">
+                    <img src="images/hero-banner.jpg" alt="Banner de Produtos Eletrônicos">
+                </div>
+                <div class="hero-content">
+                    <h2>Descubra as Últimas Novidades em Tecnologia!</h2>
+                    <p>Explore nossa seleção de gadgets inovadores, smartwatches, drones e muito mais. Tudo o que você precisa para estar conectado e atualizado, com a facilidade do dropshipping.</p>
+                    <a href="produtos.html" class="cta-button">Ver Todos os Produtos</a>
+                </div>
+            </section>
+
+            <section class="product-grid" id="featured-products">
+                <!-- Produtos em destaque serão carregados aqui pelo JavaScript -->
+            </section>
+        </main>
+    </div>
 
     <footer>
-        <p>&copy; 2024 Minha Loja de Dropshipping. Todos os direitos reservados.</p>
+        <p>&copy; 2024 TechDrop Express. Todos os direitos reservados.</p>
+        <p>Imagens de produtos meramente ilustrativas.</p>
     </footer>
 
-    <script src="main.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>
