@@ -1,0 +1,23 @@
+[
+  {
+    "id": "1",
+    "name": "Smartwatch Pro X",
+    "price": 299.90,
+    "description": "O smartwatch mais completo do mercado, com monitoramento avançado de saúde e GPS integrado.",
+    "image_placeholder": "images/product1.jpg"
+  },
+  {
+    "id": "2",
+    "name": "Fone Bluetooth NoiseFree",
+    "price": 189.90,
+    "description": "Experimente a imersão total com cancelamento de ruído ativo e som de alta fidelidade.",
+    "image_placeholder": "images/product2.jpg"
+  },
+  {
+    "id": "3",
+    "name": "Drone Explorer 4K",
+    "price": 799.90,
+    "description": "Capture imagens aéreas incríveis com resolução 4K e grande autonomia de voo.",
+    "image_placeholder": "images/product3.jpg"
+  }
+]

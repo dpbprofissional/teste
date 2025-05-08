@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produtos - Minha Loja</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Nossos Produtos</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="produtos.html">Produtos</a></li>
+                <li><a href="carrinho.html">Carrinho</a></li>
+                <li><a href="checkout.html">Checkout</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="product-grid">
+            <!-- Produto 1 -->
+            <div class="product-card">
+                <img src="images/product1.jpg" alt="Produto 1">
+                <h3>Nome do Produto 1</h3>
+                <p class="price">R$ 99,90</p>
+                <button class="add-to-cart-btn" data-product-id="1" data-product-name="Produto 1" data-product-price="99.90">Adicionar ao Carrinho</button>
+            </div>
+
+            <!-- Produto 2 -->
+            <div class="product-card">
+                <img src="images/product2.jpg" alt="Produto 2">
+                <h3>Nome do Produto 2</h3>
+                <p class="price">R$ 129,90</p>
+                <button class="add-to-cart-btn" data-product-id="2" data-product-name="Produto 2" data-product-price="129.90">Adicionar ao Carrinho</button>
+            </div>
+
+            <!-- Produto 3 -->
+            <div class="product-card">
+                <img src="images/product3.jpg" alt="Produto 3">
+                <h3>Nome do Produto 3</h3>
+                <p class="price">R$ 79,90</p>
+                <button class="add-to-cart-btn" data-product-id="3" data-product-name="Produto 3" data-product-price="79.90">Adicionar ao Carrinho</button>
+            </div>
+
+            <!-- Adicione mais produtos conforme necessário -->
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Minha Loja. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
